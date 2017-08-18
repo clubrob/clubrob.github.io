@@ -1,7 +1,14 @@
-$font-stack:    'Helvetica Neue', Helvetica, Arial, sans-serif;
-$primary-color: #666;
+// style.scss
+
+@import 'reset';
+@import 'type';
+@import 'color';
 
 body {
   font: 100% $font-stack;
   color: $primary-color;
+}
+
+header, main, footer {
+  text-align: center;
 }
